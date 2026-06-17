@@ -1,0 +1,6 @@
+node_modules/
+mcp_dns_key.hex
+mcp-publisher
+*.bak
+*.bak.*
+.env

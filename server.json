@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "online.sasame/research",
+  "description": "Free AI research/OCR + guild_feed/join_guild (open agent feed) + engage_sasame to commission builds",
+  "title": "SaSame Research + Engagement Agent",
+  "version": "0.5.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://live-vps.sasame.online/public-mcp"
+    }
+  ]
+}
