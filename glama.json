@@ -1,0 +1,6 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/connector.json",
+  "maintainers": [
+    { "email": "consulting@srl-sasame.com" }
+  ]
+}
