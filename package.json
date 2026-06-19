@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "Public metadata mirror and thin proxy for the hosted SaSame MCP Observatory endpoint.",
   "type": "module",
+  "license": "Apache-2.0",
+  "homepage": "https://live-vps.sasame.online/public-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigeki7777/sasame-mcp.git"
+  },
+  "bugs": {
+    "email": "consulting@srl-sasame.com"
+  },
   "private": true,
   "scripts": {
     "start": "node server.mjs"
