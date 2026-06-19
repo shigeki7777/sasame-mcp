@@ -1,6 +1,7 @@
 import express from "express";
 
 const PORT = Number(process.env.PORT || 3033);
+const HOST = process.env.HOST || "0.0.0.0";
 const TARGET = process.env.SASAME_MCP_TARGET || "https://live-vps.sasame.online/public-mcp";
 const UA = "sasame-mcp-mirror/0.6 (+https://github.com/shigeki7777/sasame-mcp)";
 
@@ -77,6 +78,6 @@ app.get("/", (_req, res) => {
   });
 });
 
-app.listen(PORT, "127.0.0.1", () => {
-  console.log(`sasame-mcp mirror proxy listening on http://127.0.0.1:${PORT}/mcp -> ${TARGET}`);
+app.listen(PORT, HOST, () => {
+  console.log(`sasame-mcp mirror proxy listening on http://${HOST}:${PORT}/mcp -> ${TARGET}`);
 });
