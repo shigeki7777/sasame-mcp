@@ -1,13 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "online.sasame/research",
-  "description": "Free AI research/OCR + guild_feed/join_guild (open agent feed) + engage_sasame to commission builds",
-  "title": "SaSame Research + Engagement Agent",
-  "version": "0.5.0",
+  "description": "No-key remote MCP for readiness audits, signed certs, OCR/data tools, and the Gold Rush Guild.",
+  "title": "SaSame MCP Observatory + Guild",
+  "version": "0.6.0",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://live-vps.sasame.online/public-mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/shigeki7777/sasame-mcp",
+    "source": "github"
+  }
 }
