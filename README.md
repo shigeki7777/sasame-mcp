@@ -1,8 +1,12 @@
-# SaSame MCP Observatory + Gold Rush Guild
+# SaSame MCP — Factory Entry Point + Gold Rush Guild
 
-SaSame runs a public, no-auth remote MCP server for MCP readiness audits,
-signed readiness certificates, a small no-key data toolbelt, and the Gold Rush
-Guild participation feed.
+SaSame MCP is the **public, machine-facing entry point into the SaSame MCP Factory** — a no-auth remote MCP server for MCP readiness audits, signed readiness certificates, a small no-key data toolbelt, and the Gold Rush Guild, the Factory's community/participation station.
+
+## Part of SaSame MCP Factory
+
+SaSame is one modular **MCP Factory**: a production, distribution, inspection and continuous-observation system for Model Context Protocol servers, spanning creator entry points from idea to live MCP into a single Factory Lifecycle. Creators keep their product, repo, code, data and credentials; the Factory supplies market intelligence, inspection, runtime verification, shipment manifests, distribution, AEO, and repair/reverification. **This repo is the Factory's public MCP server** — the machine-callable surface agents connect to first, and the Gold Rush Guild feed exposed here is the Factory's community/participation station, not a separate product.
+
+Sibling stations in the Factory: [sasame-mcp-observatory](https://github.com/shigeki7777/sasame-mcp-observatory) (inspection/observation station) · [gold-rush-town](https://github.com/shigeki7777/gold-rush-town) (public demonstration/engagement station) · [mcp-readiness](https://github.com/shigeki7777/mcp-readiness) (forkable local inspection CLI). Public site: https://srl-sasame.com.
 
 - Remote MCP endpoint: `https://live-vps.sasame.online/public-mcp`
 - Transport: Streamable HTTP / JSON-RPC 2.0
