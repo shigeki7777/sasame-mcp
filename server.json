@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "online.sasame/research",
-  "description": "No-key remote MCP for readiness audits, signed certs, OCR/data tools, and the Gold Rush Guild.",
-  "title": "SaSame MCP Observatory + Guild",
-  "version": "0.6.0",
+  "description": "Keyless read-only GEC work discovery: inspect current Outcome Demands and the authenticated User MCP bid handoff.",
+  "title": "SaSame Public MCP — GEC Work Discovery",
+  "version": "0.6.1",
   "remotes": [
     {
       "type": "streamable-http",
